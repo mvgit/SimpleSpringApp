@@ -1,0 +1,11 @@
+# exclude everything except directory foo/bar
+*/target/**
+*/build/**
+*/logs/**
+.DS_Store
+# Package Files #
+*.war
+*.ear
+*.class
+.classpath
+.project
