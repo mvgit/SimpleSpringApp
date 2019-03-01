@@ -11,4 +11,5 @@ phases:
       - echo Exiting the build phase...
 artifacts:
   files:
+    - 'Dockerfile'
     - 'target/AdivaSpringMVCSimpleApp-0.0.1-SNAPSHOT.war'
