@@ -11,4 +11,4 @@ phases:
       - echo Exiting the build phase...
 artifacts:
   files:
-    - 'target/sample.war'
+    - 'target/AdivaSpringMVCSimpleApp-0.0.1-SNAPSHOT.war'
