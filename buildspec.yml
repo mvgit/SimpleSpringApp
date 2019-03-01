@@ -1,0 +1,14 @@
+version: 0.2
+ 
+phases:
+  build:
+    commands:
+      - echo Entered the build phase...
+      - echo Build started on `date`
+      - mvn clean
+      - mvn install
+  finally:
+      - echo Exiting the build phase...
+artifacts:
+  files:
+    - 'target/sample.war'
