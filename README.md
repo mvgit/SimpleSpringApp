@@ -1,6 +1,6 @@
 
 
-# Repository Title Goes Here
+# Simple Spring MVC Web application
 
 > Simple Spring MVC Web application
 
