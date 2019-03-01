@@ -9,3 +9,4 @@
 *.class
 .classpath
 .project
+.settings
