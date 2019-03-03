@@ -13,3 +13,5 @@ artifacts:
   files:
     - 'Dockerfile'
     - 'target/AdivaSpringMVCSimpleApp-0.0.1-SNAPSHOT.war'
+    - DockerImageBuild/buildspec.yml
+  discard-paths: yes
