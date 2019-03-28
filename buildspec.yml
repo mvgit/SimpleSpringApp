@@ -3,8 +3,8 @@ version: 0.2
 phases:
 pre_build:
     commands:
-      - echo Logging in to Amazon ECR...
-  build:
+      - echo Entered the pre build phase...
+build:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
