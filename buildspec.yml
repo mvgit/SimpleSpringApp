@@ -1,22 +1,25 @@
 version: 0.2
- 
+
 phases:
-pre_build:
+  install:
     commands:
-      - echo Entered the pre build phase...
-build:
+      - echo Entering install phase...
+      - echo Nothing to do in the install phase...
+  pre_build:
     commands:
-      - echo Entered the build phase...
+      - echo Entering pre_build phase...
+      - echo Nothing to do in the pre_build phase...
+  build:
+    commands:
+      - echo Entering build phase...
       - echo Build started on `date`
       - mvn clean
       - mvn install
-    finally:
-      - echo Exiting the build phase...
-post_build:
+  post_build:
     commands:
+      - echo Entering post_build phase...
       - echo Build completed on `date`
 artifacts:
   files:
     - 'Dockerfile'
     - 'target/AdivaSpringMVCSimpleApp-0.0.1-SNAPSHOT.war'
-  discard-paths: yes
